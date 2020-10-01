@@ -1,0 +1,28 @@
+PROJECT: "SAVE MY SPOT"
+**************************************************************************
+SUMMARY
+**************************************************************************
+When you live in or have visited a major city, you know that finding a 
+parking spot isn’t just hard; it is going to be expensive. Moreover, time
+spent looking for someplace to put your car on crowded city street is 
+significant. One 2011 IBM study found that 30 percent of a major city's 
+traffic is  attributable to people hunting for parking with an average 
+of 20 minutes spent in looking for convenient parking space. To scale 
+down this problem, our web application records user location and allows 
+them to find and compare empty parking spots near them from an extensive 
+and accurate parking database; saving money and time when you park. It
+will also allow users to pre-book a parking space right from home, so 
+they never have to worry about losing their desired spot.
+
+**************************************************************************
+CHANGES
+**************************************************************************
+version 1.0
+- proof of architecture
+
+**************************************************************************
+SETUP
+**************************************************************************
+1.When the code is executed once, it creates a default keyspace 'ParkingSystem'. 
+If the code is to be re-run, the keyspace 'ParkingSystem' has to be dropped 
+manually otherwise it will result in keyspace conflict.
